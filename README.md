@@ -35,8 +35,3 @@ This project was built to bridge the gap between theory and practice in electric
 - `pandas` – data structuring
 - `matplotlib` – waveform visualization
 
----
-
-## 📁 Project Structure
-
-
