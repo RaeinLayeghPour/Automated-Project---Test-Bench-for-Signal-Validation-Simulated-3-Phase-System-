@@ -22,18 +22,6 @@ A Python-based test framework for simulating and validating three-phase AC signa
 
 ---
 
-## 📂 Folder Structure
-
-.
-├── src/ # Core scripts: signal generation, validation routines
-├── tests/ # Unit tests and validation scripts
-├── notebooks/ # Examples and exploratory analyses in Jupyter Notebooks
-├── data/ # Sample signal outputs or configuration files
-├── requirements.txt # Required Python dependencies
-└── README.md # Project overview (this file)
-
----
-
 ## 🔍 What It Solves
 
 Three-phase signal validity is crucial for power system reliability. This test bench lets you:
