@@ -1,4 +1,4 @@
-# ⚙️ Test Bench for Signal Validation – Simulated 3‑Phase System
+# ⚙️ Test Bench for Signal Validation: Simulated 3‑Phase System
 
 A Python-based test framework for simulating and validating three-phase AC signals under various conditions (frequency variations, phase shifts, fault scenarios). Ideal for power system developers, protection engineers, and HIL (Hardware-in-the-Loop) simulation workflows.
 
