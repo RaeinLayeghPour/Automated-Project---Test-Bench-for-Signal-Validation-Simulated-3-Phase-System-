@@ -35,7 +35,7 @@ It serves as a modular starting point for developing relay/protection logic or i
 
 ## 📚 Background
 
-Hardware-in-the-Loop (HIL) simulation is a technique that integrates real hardware into simulated environments, perfect for testing control or protection systems in a realistic setting.
+Hardware-in-the-Loop (HIL) simulation is a technique that integrates real hardware into simulated environments, making it ideal for testing control or protection systems in a realistic setting.
 
 This framework is designed as a stepping stone toward HIL workflows, enabling offline validation before hardware integration.
 
@@ -45,5 +45,5 @@ This framework is designed as a stepping stone toward HIL workflows, enabling of
 
 Questions or contributions? Please reach out:
 
-- 💼 [Your Name (LinkedIn)](https://www.linkedin.com/in/raeinlp)
+- 💼 [LinkedIn](https://www.linkedin.com/in/raeinlp)
 - ✉️ Email: raeen.layegh2017@gmail.com
