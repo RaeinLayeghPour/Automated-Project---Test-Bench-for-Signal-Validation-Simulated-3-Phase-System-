@@ -1,37 +1,61 @@
-# 🔌 Automated Test Bench for Signal Validation (Simulated 3-Phase System)
+# ⚙️ Test Bench for Signal Validation – Simulated 3‑Phase System
 
-A Python-based test automation framework for simulating and validating 3-phase AC signals under various conditions including frequency variation, phase shift, and noise. Designed as a signal validation tool for electrical engineering applications such as inverter testing, motor control, and power system QA.
-
----
-
-## 📋 Features
-
-- ✅ Simulates clean and noisy 3-phase sinusoidal waveforms
-- ✅ Automated test validation using `pytest`
-- ✅ Phase shift detection using cross-correlation
-- ✅ Frequency estimation using zero-crossing
-- ✅ RMS verification
-- 📈 Signal visualization with `matplotlib`
-- 🧪 Extensible for testing distortion, clipping, and harmonics
+A Python-based test framework for simulating and validating three-phase AC signals under various conditions (frequency variations, phase shifts, fault scenarios). Ideal for power system developers, protection engineers, and HIL (Hardware-in-the-Loop) simulation workflows.
 
 ---
 
-## 🧠 Why This Project?
+## 🧪 Features
 
-This project was built to bridge the gap between theory and practice in electrical engineering. It brings together:
-
-- Python-based test automation (`pytest`)
-- Core signal processing concepts (RMS, frequency, phase)
-- Realistic simulation of 3-phase signals and their imperfections
-- A clean and modular codebase, ready for extension
+- Generates balanced three-phase waveforms with adjustable frequency and phase shift
+- Introduces user-defined faults (e.g., unbalances, phase drops)
+- Automates signal validation routines for relay and protection algorithm testing
+- Structured for easy expansion into real‑time or HIL environments
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python 3.13+
-- `pytest` – testing framework
-- `numpy` – numerical signal generation
-- `pandas` – data structuring
-- `matplotlib` – waveform visualization
+- **Language:** Python  
+- **Core Modules:** NumPy, SciPy, Matplotlib (for signal generation, analysis, visualization)  
+- **Testing/Validation:** PyTest or custom test scripts  
+- **Documentation & Execution:** Jupyter Notebooks supported
 
+---
+
+## 📂 Folder Structure
+
+.
+├── src/ # Core scripts: signal generation, validation routines
+├── tests/ # Unit tests and validation scripts
+├── notebooks/ # Examples and exploratory analyses in Jupyter Notebooks
+├── data/ # Sample signal outputs or configuration files
+├── requirements.txt # Required Python dependencies
+└── README.md # Project overview (this file)
+
+---
+
+## 🔍 What It Solves
+
+Three-phase signal validity is crucial for power system reliability. This test bench lets you:
+- Simulate balanced or unbalanced 3-phase waveforms
+- Vary frequency and phase for transient/fault analysis
+- Automatically test and log validation results
+
+It serves as a modular starting point for developing relay/protection logic or integrating it into a real-time HIL system.
+
+---
+
+## 📚 Background
+
+Hardware-in-the-Loop (HIL) simulation is a technique that integrates real hardware into simulated environments, perfect for testing control or protection systems in a realistic setting.
+
+This framework is designed as a stepping stone toward HIL workflows, enabling offline validation before hardware integration.
+
+---
+
+## 📬 Contact
+
+Questions or contributions? Please reach out:
+
+- 💼 [Your Name (LinkedIn)](https://www.linkedin.com/in/raeinlp)
+- ✉️ Email: raeen.layegh2017@gmail.com
